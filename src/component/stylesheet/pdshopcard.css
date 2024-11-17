@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Store Card styling */
+  .store-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+  }
+  
+  /* Logo and Store Name on the left */
+  .store-card-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .store-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .store-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* View Store Button on the right */
+  .view-store-btn {
+    background-color: #004182;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+  }
+  
+  .view-store-btn:hover {
+    background-color: #003366;
+  }

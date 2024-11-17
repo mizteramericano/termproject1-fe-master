@@ -1,0 +1,51 @@
+.body{
+    background: #ebfbff;
+}
+
+.cardd {
+    display: flex;
+    flex-direction: row;
+    background-color: #d7d7d7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+    height: 30vh;
+    width: 70vi;
+}
+
+.store-logo {
+    place-items: center;
+}
+
+.store-logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.store-info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.store-info h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.contract {
+    justify-content: end;
+    text-align: right;
+}
+
+.header1 {
+    padding-left: 3%;
+}
+
+.pad {
+    padding-top: 2%;
+}

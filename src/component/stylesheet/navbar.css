@@ -1,0 +1,30 @@
+.custom-navbar {
+  background-color: #004182; /* สีพื้นหลัง */
+  padding: 10px;
+}
+
+.custom-navbar .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.custom-navbar .store-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.custom-navbar .nav-link {
+  color: white;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ff6f61;
+}
+
+.alr {
+  justify-content: end;
+}
